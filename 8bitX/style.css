@@ -1,0 +1,47 @@
+.colp {
+    display: flex;
+    /* Use flexbox for centering */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 20vh;
+    /* Full viewport height */
+}
+
+img {
+    max-width: 100%;
+    /* Ensure image fits container */
+    max-height: 100%;
+    /* Ensure image fits container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+@keyframes blink {
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+.coming-soon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.coming-soon-text {
+    font-size: 20px;
+}
+
+.dots {
+    display: inline-block;
+    animation: blink 1s infinite;
+}

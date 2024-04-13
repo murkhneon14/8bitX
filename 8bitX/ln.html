@@ -1,0 +1,204 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <title>8bitbrains</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <style>
+        body {
+            padding-bottom: 90px;
+        }
+        
+        .nes-progress {
+            height: 25px;
+        }
+    </style>
+</head>
+<marquee behavior="scroll" direction="left" scrollamount="10">
+    8bitbrains× bitX× nectar&copy;2024
+</marquee>
+<nav style='padding: 10px; border-bottom: 3px solid #d5b895; margin-bottom: 60px'></nav>
+
+<body style="background-color: #f5f5dc;">
+    <div class="container">
+        <h2 style="margin-bottom: 0;">
+            <img src="logo1.png" width="96px" height="96px">
+            <i class="nes-icon coin"></i> 8bitX
+
+        </h2>
+    </div>
+    <div class="col">
+        <img src="p3logo.png" width="100%" height="auto">
+    </div>
+
+    <div class="container" style="margin-top: 80px;">
+        <div class="row">
+            <div class=" col-sm-9 col-xs-12 ">
+                <div class="nes-balloon from-left ">
+                    <p>Welcome to 8bitX. Divide Bills,not Friends!! 8bitX lets you split your expenses. <i class="nes-icon heart "></i></p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="twocharacters_4.png" width="250px" height="250px" style="float: right;">
+            </div>
+        </div>
+    </div>
+
+    <h3 class="topic-title " style="margin-top: 40px; ">
+        <i class="nes-icon star "></i>"App Features"
+    </h3>
+    <div class="nes-container is-dark ">
+        <div class="row ">
+            <div class="col-xs-10 ">
+
+                <p>Sharing expenses with flatmates/anyone or on trips becomes less stressful.</p>
+                <p>Do you track your subscriptions?We are adding the solution in this app.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class=" colp ">
+
+        <img src="shhh.png " width="100% " height="100% ">
+    </div>
+    <div class="coming-soon-container ">
+        <h1 class="coming-soon-text ">Coming Soon<span class="dots ">...</span></h1>
+    </div>
+    <div class="col-xs-10">
+        <p id="shareExperience"> . Share your experience</p>
+    </div>
+
+    <script>
+        document.getElementById('shareExperience').addEventListener('click', function() {
+            window.open('https://forms.gle/Uyhxu2K8jvguooWf7', '_blank');
+        });
+    </script>
+    <nav style='padding: 10px; border-bottom: 3px solid #d5b895; margin-bottom: 60px'></nav>
+
+    <div class="col-md-4 col-sm-12 col-xs-12" style="margin-top: 50px; margin-bottom: 50px;">
+        <div class="nes-container with-title">
+            <h3 class="title">Planning Phase</h3>
+            <div class="div">
+                <div class="lists">
+                    <ul class="nes-list is-circle" style="margin-bottom: 0px;">
+                        <li>Define App Features</li>
+                        <li>Design App UI/UX</li>
+                        <li>Development Phase
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="nes-container is-dark with-title" style="margin-top: 50px; margin-bottom: 50px;">
+            <h3 class="title">What I have to learn</h3>
+            <div class="lists">
+                <ul class="nes-list is-circle" style="margin-bottom: 0px;">
+                    <li>Java Script</li>
+                    <li>React</li>
+                    <li>Node.js/MysQl
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="nes-container is-dark ">
+        <div class="row ">
+            <div class="col-xs-12 ">
+
+                <p>Backend toh mujhse ho nahi raha! If you wants to help me out,please reach out to me .</p>
+                <p>Lets learn together and break the complexities of backend. It'll gonna full of mauj-masti!!
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-8 col-sm-12 col-xs-12 ">
+        <div class="nes-container with-title" style="margin-top: 50px; margin-bottom: 50px;">
+            <h3 class="title">Rate your self</h3>
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">Java script</div>
+                <div class="col-sm-8 col-xs-12">
+                    <progress class="nes-progress is-success" id="progressBar" value="60" max="100"></progress>
+                    <div class="nes-field">
+                        <label for="range" class="label">Progress:</label>
+                        <input type="range" id="range" class="nes-range" min="0" max="100" value="60">
+                        <button id="customLoginBtn" class="nes-btn">Submit Progress</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#range').on('input', function() {
+                $('#progressBar').val($(this).val());
+            });
+
+            // Initialize Google Sign-In
+            gapi.load('auth2', function() {
+                gapi.auth2.init({
+                    client_id: '485368032874-fotsp1aj1tg9fqfokcu6tpv5q0bc1v8a.apps.googleusercontent.com', // Replace with your Google OAuth Client ID
+                });
+            });
+
+            // Handle custom button click for Google Sign-In
+            $('#customLoginBtn').click(function() {
+                const auth2 = gapi.auth2.getAuthInstance();
+                auth2.signIn({
+                    prompt: 'select_account'
+                }).then(function(googleUser) {
+                    const idToken = googleUser.getAuthResponse().id_token;
+                    // Send idToken to backend for verification
+                    console.log('Google ID Token:', idToken);
+                    // Example: Send idToken to backend using fetch
+                    fetch('http://localhost:3000/googleSignIn', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({
+                                idToken
+                            }),
+                        })
+                        .then(response => response.text())
+                        .then(data => console.log(data))
+                        .catch(error => console.error('Error:', error));
+                });
+            });
+
+        });
+    </script>
+    <div class="container " style="margin-top: 50px; font-size: 60%; ">
+        <div class="row ">
+            <div class="col-xs-12 " style="text-align: center; color: #d5b895; ">
+                Nectar&copy;2024 [8bitbrains]
+            </div>
+        </div>
+
+
+
+</body>
+
+</html>
